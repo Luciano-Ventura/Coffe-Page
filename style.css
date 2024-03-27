@@ -36,7 +36,12 @@ section {
     right: 0;
     z-index: 99;
     border-bottom: var(--border);
-    background-color: var(--bg);
+    
+    /* From https://css.glass */
+    background: rgba(0, 0, 0, 0.31);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.5px);
+    -webkit-backdrop-filter: blur(9.5px);
 }
 
 .header section {
